@@ -150,7 +150,8 @@ span.txt-type.lead.d-flex.justify-content-center {
 }
 
 .angular-card,
-.react-card {
+.react-card,
+.firebase-card {
   padding: 30px;
 }
 
