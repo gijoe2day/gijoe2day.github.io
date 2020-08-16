@@ -1,0 +1,128 @@
+.brand {
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar-nav {
+  font-family: "Roboto Slab", serif;
+}
+
+.lets {
+  font-family: "Roboto Slab", serif;
+}
+
+.better {
+  font-family: "Roboto Slab", serif;
+  font-size: 72px;
+}
+
+.dynamic {
+  font-size: 72px;
+  height: 100px;
+  font-family: "Roboto Slab", serif;
+}
+
+.tech-header,
+.about-header,
+.project-header {
+  font-family: "Roboto Slab", serif;
+  color: #284b63;
+  font-size: 40px;
+}
+
+.description-body {
+  font-family: "Roboto Slab", serif;
+}
+
+.jumbotron {
+  height: 70vh;
+  background-image: url("/images/beach.jpg");
+  opacity: 0.7;
+}
+
+.skill-cards {
+  margin-left: 25px;
+}
+
+.firebaseimg {
+  width: 150px;
+}
+
+.vueimg {
+  width: 290px;
+  margin-left: -40px;
+  margin-bottom: -60px;
+  margin-top: -30px;
+}
+
+.pic-profile {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.profile-card {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.img-container {
+  border: none;
+}
+
+.projects,
+.aboutme,
+.skills {
+  margin: 80px;
+}
+
+.project-description {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.description-card {
+  border: none;
+}
+
+.description-header {
+  border: none;
+  border-bottom: none;
+}
+
+.description-title {
+  font-size: 28px;
+}
+
+.framework {
+  opacity: 0.2;
+  margin-left: 6px;
+  background: none;
+}
+
+.project-card {
+  border: none;
+}
+
+.framework-logo {
+  border: none;
+  background: none;
+}
+
+.contact {
+  background: #284b63;
+  font-size: 25px;
+}
+
+.contact a {
+  color: white;
+  margin-top: 15px;
+}
+
+.contact a:hover {
+  color: gray;
+}
+
+.fab,
+.fas {
+  margin-top: 10px;
+}
