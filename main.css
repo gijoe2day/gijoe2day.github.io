@@ -56,12 +56,13 @@
 }
 
 .pic-profile {
-  border-radius: 50%;
-  width: 300px;
+  border-radius: 40%;
+  width: 250px;
+  opacity: 0.8;
 }
 
 .profile-card {
-  margin-left: 50px;
+  margin-left: 70px;
   margin-bottom: 20px;
 }
 
