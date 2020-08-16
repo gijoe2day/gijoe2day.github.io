@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .brand {
   font-size: 30px;
   font-family: "Roboto Slab", serif;
@@ -125,4 +126,187 @@
 .fab,
 .fas {
   margin-top: 10px;
+=======
+#navbar {
+  background: #284b63;
+
+  width: 200px;
+  height: 100vh;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  display: flex;
+  justify-content: center;
+  font-family: "Antic Slab", serif;
+  font-size: 53px;
+}
+
+.nav-bar-body {
+  margin-left: -20px;
+}
+
+.nav-header {
+  height: 100px;
+  margin-right: 20px;
+  float: right;
+  margin-top: 30px;
+}
+
+.nav-header h1,
+.nav-header p {
+  margin: 0 20px;
+}
+
+#navbar ul .nav-item {
+  height: 50px;
+}
+
+#navbar .navbar-header {
+  height: 70px;
+}
+
+#navbar .navbar-brand {
+  font-size: 25px;
+}
+
+#navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+#navbar a:hover {
+  color: #d9d9d9;
+}
+
+#navbar2 {
+  width: 100vw;
+}
+
+.navfooter {
+  height: 50px;
+  background: #d9d9d9;
+  color: #284b63;
+}
+
+#navbar2 .navfooter a:hover {
+  color: #284b63;
+}
+
+.nav.navbar.navfooter.fixed-bottom {
+  font-size: 20px;
+}
+
+.connect {
+  width: 200px;
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* jumbotron */
+.jumbotron {
+  height: 80vh;
+  background-image: url("img/beach3\ \(1\).png");
+}
+
+span.txt-type.lead {
+  font-size: 60px;
+}
+span.txt-type.lead.d-flex.justify-content-center {
+  height: 150px;
+  font-family: "Antic Slab", serif;
+}
+
+.jumbo-text {
+  background-color: #284b63;
+  padding: 30px;
+  color: white;
+  width: 700px;
+  margin-left: 220px;
+}
+
+/* profile */
+.profile {
+  height: 560px;
+  padding: 10px;
+}
+
+.profile h1 {
+  margin-bottom: 30px;
+}
+
+.profile h3 {
+  color: orange;
+  margin: 20px auto;
+  text-shadow: -2px 2px 2px #ea0a0a;
+}
+
+.profile-description {
+  margin-left: 270px;
+}
+
+.profile img {
+  width: 300px;
+  height: 320px;
+  margin-left: 60px;
+  border-radius: 10%;
+  box-shadow: -5px 6px 6px 0px #284b63;
+  margin-top: 60px;
+}
+
+.card-title {
+  margin-top: 15px;
+}
+
+.technology h1 {
+  margin: 30px;
+}
+
+.technology .card {
+  align-items: center;
+}
+
+.tech-deck {
+  margin: 20px auto;
+}
+
+.angular-card,
+.react-card,
+.firebase-card {
+  padding: 31px;
+}
+
+img.card-img-top.firebaseLogo {
+  width: 250px;
+  margin: 5px auto;
+}
+
+.projects {
+  min-height: 300px;
+  margin: 100px auto;
+}
+
+#react,
+#web {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+>>>>>>> 440dbc8ae9c53ca02c5716cace64a2988396ea7b
 }
