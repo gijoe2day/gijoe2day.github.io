@@ -9,15 +9,16 @@
 
 .lets {
   font-family: "Roboto Slab", serif;
+  font-size: 60px;
 }
 
 .better {
   font-family: "Roboto Slab", serif;
-  font-size: 72px;
+  font-size: 60px;
 }
 
 .dynamic {
-  font-size: 72px;
+  font-size: 90px;
   height: 100px;
   font-family: "Roboto Slab", serif;
 }
@@ -49,7 +50,7 @@
 }
 
 .vueimg {
-  width: 225px;
+  width: 220px;
   margin-left: -40px;
   margin-bottom: -60px;
   margin-top: -30px;
