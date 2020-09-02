@@ -46,17 +46,6 @@
   margin-left: 25px;
 }
 
-.firebaseimg {
-  width: 100px;
-}
-
-.vueimg {
-  width: 220px;
-  margin-left: -40px;
-  margin-bottom: -60px;
-  margin-top: -30px;
-}
-
 .pic-profile {
   border-radius: 35%;
   width: 310px;
@@ -102,7 +91,6 @@
 }
 
 .framework {
-  margin-left: 6px;
   background: none;
   margin-bottom: 50px;
 }
@@ -133,4 +121,152 @@
 .fab,
 .fas {
   margin-top: 10px;
+}
+
+/* $desktop: 1200px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px; */
+@media only screen and (min-width: 800px) {
+  .tech-header,
+  .about-header,
+  .project-header {
+    font-family: "Roboto Slab", serif;
+    color: #284b63;
+    font-size: 40px;
+  }
+
+  .firebaseimg {
+    width: 100px;
+  }
+
+  .react-project-img {
+    width: 100px;
+  }
+
+  .mongoose {
+    margin-top: 30px;
+    margin-left: -33px;
+  }
+
+  .framework {
+    margin-left: 55px;
+    margin-top: 15px;
+  }
+
+  .firebase-project-img {
+    width: 80px;
+  }
+
+  .angular-project-img {
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .profile-card {
+    margin-bottom: 50px;
+    margin-top: 100px;
+  }
+
+  .pic-profile {
+    width: 250px;
+    height: auto;
+  }
+
+  .jumbotron {
+    background-image: none;
+  }
+
+  .firebaseimg {
+    width: 100px;
+    margin-left: 25px;
+  }
+
+  .mongoose {
+    margin-top: 25px;
+    margin-left: -33px;
+  }
+
+  .better {
+    font-size: 50px;
+    margin-left: 85px;
+  }
+
+  .framework {
+    max-width: 50px;
+    margin-left: 170px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+  .jumbotron {
+    background-image: none;
+  }
+
+  .lets {
+    font-size: 50px;
+  }
+
+  .dynamic {
+    font-size: 50px;
+  }
+
+  .better {
+    font-size: 50px;
+    margin-left: 55px;
+  }
+
+  .tech-header,
+  .about-header,
+  .project-header {
+    font-size: 30px;
+  }
+
+  .firebaseimg {
+    width: 100px;
+    margin-left: 35px;
+  }
+
+  .mongo {
+    margin-left: -20px;
+  }
+
+  .mongoose {
+    margin-bottom: 15px;
+    margin-left: -33px;
+  }
+
+  .framework-logo {
+    max-width: 280px;
+    margin-top: 10px;
+    margin-left: 120px;
+  }
+
+  .framework {
+    max-width: 110px;
+    margin-left: 170px;
+    margin-top: 20px;
+  }
+
+  .profile-card {
+    max-width: 100px;
+    margin-bottom: 50px;
+    margin-left: 135px;
+  }
+
+  .pic-profile {
+    width: 170px;
+    height: auto;
+  }
+
+  .contact {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .btn {
+    margin-left: 100px;
+  }
 }

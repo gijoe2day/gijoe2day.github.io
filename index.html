@@ -60,7 +60,7 @@
     <div  class="jumbotron">
       <div class="container">
         <h1 class="d-flex justify-content-center lets" style="color: #284b63;">LET'S</h1>
-          <div class="md-12">
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <span
             class="txt-type dynamic lead d-flex justify-content-center" style="color: #284b63;"
             data-wait="3000"
@@ -78,30 +78,32 @@
     <div class="skills container" id=tech-skills>
       <h2 class="text-center tech-header mb-5">---------  TECH SKILLS  ---------</h2>
       <div class="row container skill-cards ml-auto">
+
             <!-- Card React -->
-            <div class="col">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="card framework-logo" style="width: 10rem;">
                 <img src="/images/react_logo.png" class="card-img-top" alt="..." />
                 
               </div>
             </div>
+
             <!-- Card Angular -->
-            <div class="col">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="card framework-logo" style="width: 10rem;">
                 <img
                   src="/images/angular_logo2.png"
-                  class="card-img-top ml-3"
+                  class="card-img-top"
                   alt="..."
                 />
               </div> 
             </div>
 
               <!-- Card Firebase -->
-              <div class="col">
+              <div class="col-sm-6 col-md-6 col-lg-3">
                 <div class="card framework-logo mt-2" style="width: 10rem;">
                   <img
                     src="/images/firebase_logo.png"
-                    class="card-img-top firebaseimg m-auto"
+                    class="card-img-top firebaseimg"
                     alt="..."
                   />
                 </div>
@@ -111,56 +113,57 @@
                  
 
                     <!-- Card Vue -->
-              <div class="col container">
-                <div class="card framework-logo" style="width: 9rem;">
+              <div class="col-sm-6 col-md-6 col-lg-3 container">
+                <div class="card framework-logo" style="width: 10rem;">
                   <img
-                    src="/images/vue_logo.png"
-                    class="card-img-top vueimg"
+                    src="/images/vue_logo.png "
+                    class="card-img-top"
                     alt="..."
                   />
-                  
                 </div>
               </div>
-
       </div>
+
       <!-- second row -->
-      <div class="row container skill-cards ml-auto">
+      <div class="row container skill-cards">
+
             <!-- Card Mongodb -->
-            <div class="col">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="card framework-logo" style="width: 10rem;">
-                <img src="/images/mongodb-logo.png" class="card-img-top" alt="..." />
+                <img src="/images/mongodb-logo.png" class="card-img-top mongo" alt="..." />
               </div>
             </div>
+
             <!-- Card Mongoose -->
-            <div class="col">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="card framework-logo" style="width: 13rem;">
                 <img
                   src="/images/mongoose_logo.png"
-                  class="card-img-top mt-5"
+                  class="card-img-top mongoose"
                   alt="..."
                 />
               </div>
             </div>
 
               <!-- Card Express -->
-              <div class="col">
+              <div class="col-sm-6 col-md-6 col-lg-3">
                 <div class="card framework-logo mt-2" style="width: 8rem;">
                   <img
                     src="/images/Express-JS.png"
-                    class="card-img-top mt-2m ml-3"
+                    class="card-img-top"
                     alt="..."
-                  />
-                  
+                  /> 
                 </div>
               </div>
+          
      
 
                   <!-- Card Node -->
-                    <div class="col">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="card framework-logo" style="width: 8rem;">
                         <img
                           src="/images/node_logo.png"
-                          class="card-img-top ml-2"
+                          class="card-img-top"
                           alt="..."
                         />
                         
@@ -179,12 +182,12 @@
     <!-- ABOUT ME -->
 
     <div class="container aboutme" id="aboutme">
-      <h3 class="text-center about-header mb-5">---------  ABOUT ME  ---------</h3>
+      <h3 class="text-center about-header mb-5 col-sm-12 col-xs-12 col-md-12 col-lg-12">---------  ABOUT ME  ---------</h3>
       <div class="row">
         <!-- Picture Column -->
-        <div class="col">
+        <div class="col-sm-6 col-lg-6">
           <div class="col container">
-            <div class="card profile-card img-container mt-5" style="width: 13rem;">
+            <div class="card profile-card img-container" style="width: 13rem;">
               <img
                 src="/images/foto gio small.png"
                 class="card-img-top vueimg pic-profile m-auto"
@@ -194,7 +197,7 @@
           </div>
         </div>
         <!-- Q&A Column -->
-        <div class="col mt-5">
+        <div class="col-sm-6 col-lg-6">
           <div class="card description-card text-center">
             <div class=" description-header">
               <h5 class="card-title description-title">PROFESSIONAL BACKGROUND...</h5>
@@ -233,52 +236,52 @@
         <h3 class="text-center project-header mb-5">---------  PROJECTS  ---------</h3>
       <div class="row">
                 <!-- First Project -->
-                <div class="col">
+                <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="card mb-3 project-card" style="max-width: 350px;">
                         <h5 class="card-title text-center project-title"><span>REACT - </span>Star Wars</h5>
-                    <div class="row no-gutters">
-                    <div class="col-md-4 m-auto">
-                        <img
-                        src="/images/react_logo.png"
-                        class="card-img framework"
-                        alt="..."
-                        />
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <p class="card-text">
-                            Fetch data & render StarWars swapi API.
-                        </p>
-                        <p class="card-text">
-                            <p class="btn"><a href="https://gijoe2day.github.io/hollywood-react/"><i class="fab fa-github-square">View in GitHub</a></i></p>
-                        </p>
+                        <div class="row">
+                          <div class="col">
+                              <img
+                              src="/images/react_logo.png"
+                              class="card-img framework react-project-img"
+                              alt="..."
+                              />
+                          </div>
+                        <div class="col">
+                            <div class="card-body">
+                            <p class="card-text">
+                                Fetch data & render StarWars swapi API.
+                            </p>
+                          </div>
+                              <p class="card-text">
+                                  <p class="btn"><a href="https://gijoe2day.github.io/hollywood-react/"><i class="fab fa-github-square">View in GitHub</a></i></p>
+                              </p>
                         </div>
-                    </div>
                     </div>
                 </div>
                 </div>
 
             <!-- Second Project -->
-            <div class="col">
+            <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="card mb-3 project-card" style="max-width: 350px;">
                     <h5 class="card-title text-center project-title"><span>REACT - </span>Expense Tracker</h5>
-                <div class="row no-gutters">
-                <div class="col-md-4 m-auto">
+                <div class="row">
+                <div class="col">
                     <img
                     src="/images/react_logo.png"
-                    class="card-img framework"
+                    class="card-img framework react-project-img"
                     alt="..."
                     />
                 </div>
-                <div class="col-md-8">
+                <div class="col">
                     <div class="card-body">
                     <p class="card-text">
                         Add and subtract income and expenses
                     </p>
-                    <p class="card-text">
-                        <p class="btn"><a href="https://gijoe2day.github.io/React-Expense-Tracker/"><i class="fab fa-github-square">View in GitHub</a></i></p>
-                    </p>
-                    </div>
+                  </div>
+                      <p class="card-text">
+                          <p class="btn"><a href="https://gijoe2day.github.io/React-Expense-Tracker/"><i class="fab fa-github-square">View in GitHub</a></i></p>
+                      </p>
                 </div>
                 </div>
             </div>
@@ -286,139 +289,143 @@
 
         
         <!-- Third Project -->
-        <div class="col">
+        <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="card mb-3 project-card" style="max-width: 350px;">
                 <h5 class="card-title text-center project-title"><span>REACT - </span>Individual Components</h5>
-            <div class="row no-gutters">
-            <div class="col-md-4 m-auto">
-                <img
-                src="/images/react_logo.png"
-                class="card-img framework"
-                alt="..."
-                />
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                <p class="card-text">
-                    Weather API, Budget, CityGuide.
-                </p>
-                <p class="card-text">
-                    <p class="btn"><a href="https://gijoe2day.github.io/Individual-Components/"><i class="fab fa-github-square">View in GitHub</a></i></p>
-                </p>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-      </div>
-
-      <!-- Second Row -->
-      <div class="row">
-
-        <!-- First Project -->
-        <div class="col">
-            <div class="card mb-3 project-card" style="max-width: 370px;">
-                <h5 class="card-title text-center project-title"><span>Angular - </span>Budget App</h5>
-            <div class="row no-gutters">
-            <div class="col-md-4 m-auto">
-                <img
-                src="/images/angular_logo.png"
-                class="card-img framework m-auto"
-                alt="..."
-                />
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                <p class="card-text">
-                    Add & subtract earnings and expenses
-                </p>
-                <p class="card-text">
-                    <p class="btn"><a href="https://gijoe2day.github.io/Angular-Budget-Calculator/"><i class="fab fa-github-square">View in GitHub</a></i></p>
-                </p>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-
-                <!-- Second Project -->
-                <div class="col">
-                    <div class="card mb-3 project-card" style="max-width: 290px;">
-                        <h5 class="card-title text-center project-title"><span>FIREBASE - </span>Instagram App</h5>
-                    <div class="row no-gutters">
-                    <div class="col-md-4 m-auto">
+                <div class="row">
+                    <div class="col">
                         <img
-                        src="/images/firebase_logo.png"
-                        class="card-img framework m-auto"
+                        src="/images/react_logo.png"
+                        class="card-img framework react-project-img"
                         alt="..."
                         />
                     </div>
-                    <div class="col-md-8">
+                    <div class="col">
                         <div class="card-body">
                         <p class="card-text">
-                            Post & review favourite photos.
+                            Weather API, Budget, CityGuide.
                         </p>
+                      </div>
+                          <p class="card-text">
+                              <p class="btn"><a href="https://gijoe2day.github.io/Individual-Components/"><i class="fab fa-github-square">View in GitHub</a></i></p>
+                          </p>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- Second Row -->
+      <div class="row">
+
+                    <!-- Replace FIRST Project -->
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                      <div class="card mb-3 project-card">
+                          <h5 class="card-title text-center project-title"><span>ANGULAR - </span>Budget App</h5>
+                          <div class="row">
+                              <div class="col">
+                                  <img
+                                  src="/images/angular_logo.png"
+                                  class="ard-img framework angular-project-img"
+                                  alt="..."
+                                  />
+                              </div>
+                              <div class="col">
+                                  <div class="card-body">
+                                  <p class="card-text">
+                                    Add & subtract earnings and expenses.
+                                  </p>
+                                </div>
+                                    <p class="card-text">
+                                        <p class="btn"><a href=https://gijoe2day.github.io/Angular-Budget-Calculator/"><i class="fab fa-github-square">View in GitHub</a></i></p>
+                                    </p>
+                              </div>
+                          </div>
+                    </div>
+                  </div>
+
+        
+
+
+                    <!-- Replace second Project -->
+        <div class="col-sm-6 col-md-6 col-lg-4">
+          <div class="card mb-3 project-card">
+              <h5 class="card-title text-center project-title"><span>FIREBASE - </span>Instagram App</h5>
+              <div class="row">
+                  <div class="col">
+                      <img
+                      src="/images/firebase_logo.png"
+                      class="ard-img framework firebase-project-img"
+                      alt="..."
+                      />
+                  </div>
+                  <div class="col">
+                      <div class="card-body">
+                      <p class="card-text">
+                        Post & review favourite photos.
+                      </p>
+                    </div>
                         <p class="card-text">
                             <p class="btn"><a href="https://gijoe2day.github.io/React-Instagram/"><i class="fab fa-github-square">View in GitHub</a></i></p>
                         </p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
+                  </div>
+              </div>
+        </div>
+      </div>
 
 
-            <!-- Third Project -->
-            <div class="col">
-                <div class="card mb-3 project-card" style="max-width: 290px;">
-                    <h5 class="card-title text-center project-title"><span>FIREBASE - </span>User Authorization</h5>
-                <div class="row no-gutters">
-                <div class="col-md-4 m-auto">
-                    <img
-                    src="/images/firebase_logo.png"
-                    class="card-img framework m-auto"
-                    alt="..."
-                    />
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                    <p class="card-text">
+                    <!-- Replace Third Project -->
+        <div class="col-sm-6 col-md-6 col-lg-4">
+          <div class="card mb-3 project-card">
+              <h5 class="card-title text-center project-title"><span>FIREBASE - </span>User Authorization</h5>
+              <div class="row">
+                  <div class="col">
+                      <img
+                      src="/images/firebase_logo.png"
+                      class="ard-img framework firebase-project-img"
+                      alt="..."
+                      />
+                  </div>
+                  <div class="col">
+                      <div class="card-body">
+                      <p class="card-text">
                         Auth logging with password.
-                    </p>
-                    <p class="card-text">
-                        <p class="btn"><a href="https://gijoe2day.github.io/firebase_auth_javascript/"><i class="fab fa-github-square">View in GitHub</a></i></p>
-                    </p>
+                      </p>
                     </div>
-                </div>
-                </div>
-            </div>
-            </div>
+                        <p class="card-text">
+                            <p class="btn"><a href="https://gijoe2day.github.io/firebase_auth_javascript/"><i class="fab fa-github-square">View in GitHub</a></i></p>
+                        </p>
+                  </div>
+              </div>
+        </div>
+      </div>
+
             </div>
     </div>
 
     <!-- Contact Section -->
     <div class="contact fixed-bottom" id="contact">
         <div class="row">
-            <div class="col">
+            <div class="col-sm-5 col-md-6 col-lg-3">
                 <div class="div text-center">
                     <a href="https://twitter.com/GiovanniJuliao"><i class="fab fa-twitter-square">Twitter</a></i>
                 </div>
 
             </div>
-            <div class="col">
+            <div class="col-sm-5 col-md-6 col-lg-3">
                 <div class="div text-center">
                     <a href="https://www.linkedin.com/in/giovanni-juliao-31770011/"><i class="fab fa-linkedin">LinkedIn</a></i>
                 </div>
 
             </div>
-            <div class="col">
-
+            <div class="col-sm-6 col-md-6 col-lg-3">
                 <div class="div text-center">
                     <a href="https://github.com/gijoe2day"><i class="fab fa-github-square">GitHub</a></i>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-sm-6 col-md-6 col-lg-3">
                 <div class="div text-center">
                     <a href="mailto:gjuliao32@hotmail.com"><i class="fas fa-envelope-square">Email</a></i>
                 </div>
@@ -448,10 +455,10 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-<<<<<<< HEAD
+
     <script src="main.js">
 
     </script>
-=======
+
   </body>
 </html>
