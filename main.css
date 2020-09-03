@@ -198,6 +198,20 @@ $phone: 480px; */
     margin-left: 170px;
     margin-top: 20px;
   }
+
+  .contact {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .page-footer {
+    width: 100%;
+  }
+
+  .page-footer .footer-link {
+    width: 100px;
+    margin-left: 5px;
+  }
 }
 
 @media only screen and (min-width: 350px) and (max-width: 600px) {
@@ -263,7 +277,16 @@ $phone: 480px; */
 
   .contact {
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
+  }
+
+  .page-footer {
+    width: 100%;
+  }
+
+  .page-footer .footer-link {
+    width: 100px;
+    margin-left: 5px;
   }
 
   .btn {
